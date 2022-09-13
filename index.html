@@ -1,10 +1,49 @@
----
-title: Coding Home
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
-<main>
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coding Home</title>
+    <link rel="icon" href="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/5d91d2de215d774a360093b4739a960a9ba68be0/week6-202207/logo2.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@400;500;700;900&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style/all.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-secondary py-6 position-relative">
+      <div class="container">
+        <a href="index.html" class="navbar-logo"><div>Coding Home</div></a>
+        <button class="navbar-toggler border-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="navbar-icon d-flex flex-column justify-content-center align-items-end"></div>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav align-items-center mt-6 my-md-0">
+            <li class="nav-item mt-4 my-md-0 me-md-8">
+              <a class="nav-link" href="index.html">首頁</a>
+            </li>
+            <li class="nav-item my-4 my-md-0 me-md-8">
+              <a class="nav-link" href="course.html">課程介紹</a>
+            </li>
+            <li class="nav-item my-md-0">
+              <a class="nav-link" href="#">
+                <span class="material-icons">
+                  account_circle
+                  </span>
+                  登入
+              </a>
+            </li>
+        </div>
+    </nav>
+
+    <main>
 <!-- header 全台最豐富的程式家教 -->
   <section class="header bg-primary">
     <div class="container h-100 d-flex justify-content-center align-items-center header-bg-img bg-img">
@@ -402,3 +441,15 @@ current: index
   </section>
 </main>
 
+
+
+    <footer class="footer bg-dark text-light font-monospace text-center">
+      Coding Home © 2022 All Rights Reserved
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.min.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+
+</html>

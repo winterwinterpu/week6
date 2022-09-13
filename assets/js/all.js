@@ -1,3 +1,5 @@
+"use strict";
+
 // courseSwiper
 var swiper = new Swiper(".courseSwiper", {
   slidesPerView: 3,
@@ -7,24 +9,24 @@ var swiper = new Swiper(".courseSwiper", {
   centeredSlides: true,
   autoplay: {
     delay: 100,
-    disableOnInteraction: false,
+    disableOnInteraction: false
   },
   breakpoints: {
     640: {
       slidesPerView: 3,
-      spaceBetween: 16,
+      spaceBetween: 16
     },
     768: {
       slidesPerView: 5,
-      spaceBetween: 16,
+      spaceBetween: 16
     },
     1024: {
       slidesPerView: 10,
-      spaceBetween: 16,
-    },
+      spaceBetween: 16
+    }
   }
-});
-//swiper
+}); //swiper
+
 var swiper2 = new Swiper(".feedback-swiper", {
   // Optional parameters
   effect: 'fade',
@@ -32,11 +34,12 @@ var swiper2 = new Swiper(".feedback-swiper", {
     crossFade: true
   },
   pagination: {
-    el: '.swiper-pagination',
+    el: '.swiper-pagination'
   },
-// Navigation arrows
+  // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
+    prevEl: '.swiper-button-prev'
+  }
 });
+//# sourceMappingURL=all.js.map
