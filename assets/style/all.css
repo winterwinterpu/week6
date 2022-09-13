@@ -16216,7 +16216,7 @@ ul, ol {
   content: '';
   width: 50%;
   height: 2px;
-  top: 72px;
+  top: 80px;
 }
 
 @media (min-width: 768px) {
