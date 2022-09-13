@@ -1,0 +1,10 @@
+@mixin bg{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@mixin gradient-text($deg, $color-1, $color-2){
+  background: linear-gradient($deg, $color-1, $color-2);
+  -webkit-background-clip: text;
+  color: transparent;
+}
