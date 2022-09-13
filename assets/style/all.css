@@ -16421,8 +16421,10 @@ ul, ol {
   opacity: .8;
 }
 
-.article-link:hover .rounded-corners {
-  display: block;
+@media (min-width: 768px) {
+  .article-link:hover .rounded-corners {
+    display: block;
+  }
 }
 
 .feedback-bg-img {
