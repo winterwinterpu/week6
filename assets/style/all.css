@@ -4766,7 +4766,7 @@ fieldset:disabled .btn {
 
 .nav-link {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0 1rem;
   color: #fff;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
   -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
@@ -4905,8 +4905,8 @@ fieldset:disabled .btn {
 }
 
 .navbar-brand {
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
+  padding-top: -0.1875rem;
+  padding-bottom: -0.1875rem;
   margin-right: 1rem;
   font-size: 1.25rem;
   white-space: nowrap;
@@ -4935,8 +4935,8 @@ fieldset:disabled .btn {
 }
 
 .navbar-text {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .navbar-collapse {
@@ -16216,7 +16216,7 @@ ul, ol {
   content: '';
   width: 50%;
   height: 2px;
-  top: 80px;
+  top: 74px;
 }
 
 @media (min-width: 768px) {
