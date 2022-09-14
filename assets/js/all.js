@@ -25,7 +25,7 @@ var swiper = new Swiper(".courseSwiper", {
       spaceBetween: 16
     }
   }
-}); //swiper
+}); //feedback-swiper
 
 var swiper2 = new Swiper(".feedback-swiper", {
   // Optional parameters
@@ -40,6 +40,25 @@ var swiper2 = new Swiper(".feedback-swiper", {
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev'
+  }
+}); //class-swiper
+
+var swiper = new Swiper(".course-swiper", {
+  slidesPerView: 3,
+  spaceBetween: 16,
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 16
+    },
+    768: {
+      slidesPerView: 5,
+      spaceBetween: 16
+    },
+    1024: {
+      slidesPerView: 7,
+      spaceBetween: 16
+    }
   }
 });
 //# sourceMappingURL=all.js.map
