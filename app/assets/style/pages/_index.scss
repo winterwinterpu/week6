@@ -113,7 +113,9 @@
 .article-link:hover{
     opacity: .8;
     .rounded-corners{
-        display: block;
+        @include media-breakpoint-up(md){
+            display: block;
+        }
     }
 }
 .feedback-bg-img{
