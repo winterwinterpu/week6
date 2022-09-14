@@ -16211,6 +16211,15 @@ ul, ol {
   }
 }
 
+.intro-list-item::before {
+  display: inline-block;
+  content: '';
+  width: 5px;
+  height: 5px;
+  background-color: #62DB54;
+  margin-right: 8px;
+}
+
 .navbar {
   background: #2D2D2D;
 }
